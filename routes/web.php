@@ -35,4 +35,5 @@ Route::post('subproyectos/guardar', ['App\Http\Controllers\SubproyectoController
     return view('dash.index');
 })->name('dash'); */
 
+
 Route::get('logout', ['App\Http\Controllers\Controller', 'logout'] )->name('logout');
